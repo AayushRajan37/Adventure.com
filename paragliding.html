@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Adventure.com |paragliding</title>
+
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+  <!-- Header...... -->
+  <header>
+    <!-- navbar............ -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="test3.html">ADVENTURE.com</a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- camping.................................. -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-expanded="false">
+                Camping
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="height: auto;">
+                <li class="dropdown-item"><a href="Kasol.html"> 📍 Kasol </a></li>
+                <li class="dropdown-item"><a href="Triund trek.html">📍 Manali</a></li>
+                <li class="dropdown-item"><a href="kedarnathtrek.html">📍 Rishikesh</a></li>
+                <li class="dropdown-item"><a href="Hamtapass.html">📍 Kullu</a></li>
+              </ul>
+            </li>
+            <!-- Trekking ...........................................-->
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-expanded="false">
+                Trekking
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="height: auto;">
+                <li class="dropdown-item"><a href="Kasol.html">📍 Kasol Kheerganga</a></li>
+                <li class="dropdown-item"><a href="Triund trek.html">📍 Triund Trek</a></li>
+                <li class="dropdown-item"><a href="kedarnathtrek.html">📍 Kedarnath</a></li>
+                <li class="dropdown-item"><a href="Hamtapass.html">📍 Hampta Pass Trek</a></li>
+                <li class="dropdown-item"><a href="Kareri.html">📍 Kareri Lake Trek</a></li>
+
+              </ul>
+            </li>
+            <!--Activities .............................................. -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-expanded="false">
+                Activities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="height: auto;">
+                <li class="dropdown-item"><a href="biketrip.html">📍 Bike Trip</a></li>
+                <li class="dropdown-item"><a href="paragliding.html">📍 Paragliding</a></li>
+                <li class="dropdown-item"><a href="rafting.html">📍 Rafting</a></li>
+                <li class="dropdown-item"><a href="Hamtapass.html">📍 Bangee Jumbing</a></li>
+
+              </ul>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="galery .html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Tours
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="height: auto;">
+                <li><a class="dropdown-item" href="Triund trek.html">Himachal Pradesh</a></li>
+                <li><a class="dropdown-item" href="kedarnathtrek.html">Leh-Ladhakh</a></li>
+                <li><a class="dropdown-item" href="Kasol.html">Uttrakhand</a></li>
+              </ul>
+            </li>
+            <!-- IMG OF indian flag -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <img src="Images/vector/indian flag.jpg" style="width: 30px;">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">📞 +91 9805679737</a>
+            </li>
+            <!---Login or Sign Up--->
+
+            <li class="nav-item">
+              <button style="background-color: aliceblue; margin: 10px; border-style: solid;">
+                <a class="" data-toggle="modal" data-target="#signinmodal">Sign In</a></button>
+            </li>
+            <li class="nav-item">
+              <button style="background-color: aliceblue;  margin: 7px; border-style: solid;">
+                <a class="" data-toggle="modal" data-target="#signupmodal">Sign Up</a></button>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+
+  <!-- Sign In Modal -->
+  <section>
+    <div class="modal fade" id="signinmodal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign In</h5>
+          </div>
+          <div class="modal-body">
+            <p><input style="width:100%; height: 40px; " class="" type="text" placeholder="E-mail" required
+                name="E-mail"></p>
+            <p><input style="width:100%; height: 40px; " class="" type="text" placeholder="Password" required
+                name="Password"></p>
+            <button class="btn btn-primary  btn-lg btn-block">Sign In</button>
+            <p>Don't have any account <a class="" data-toggle="modal" data-target="#signupmodal">
+                Sign Up</a></li>
+            </p>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupmodal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign Up</h5>
+          </div>
+          <div class="modal-body">
+            <form action="/action_page.php" method="get">
+              <p><input style="width:100%; height: 40px; " class="" type="text" placeholder=" Name" required
+                  name="Name"></p>
+
+              <p><input style="width:100%; height: 40px; " class="" type="text" placeholder="Email " required
+                  name="Email"></p>
+
+              <p><input style="width:100%; height: 40px; " class="" type="text" placeholder="Password" required
+                  name="Password"></p>
+
+              <p><input style="width:100%; height: 40px; " class="" type="text" placeholder=" Re-enter Password"
+                  required name="Password"></p> <br>
+              <button class="btn btn-primary  btn-lg btn-block">Sign Up</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- crousel ............................................-->
+
+    <div id="abc" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#abc" data-slide-to="0" class="active"></li>
+        <li data-target="#abc" data-slide-to="1"></li>
+        <li data-target="#abc" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div style="overflow:auto">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/manali/sky.jpg" alt="" width="100%" height="400">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/trekking-g19d0c4fe7_1920.jpg" alt="" width="100%" height="400">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/manali/paraglider.jpg" alt="" width="100%" height="400">
+
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#abc" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#abc" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!-- ............... -->
+    <section class=" py-1" style="background-color: #a8dbff;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h3>Paragliding in Manali 2022 ,Himachal Pradesh India
+            </h3><br>
+            <button><a class="btn btn-primary" href="book.html">Book Now</a></button>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-6 ">
+                <span class="rating">
+                  <div class="user-rating" data-score="4.9" title="gorgeous">
+                    <img style="width:24px" alt="1" src="Images/star-images-9441.png" title="gorgeous">
+                    &nbsp;<img style="width:24px" alt="2" src="Images/star-images-9441.png" title="gorgeous">
+                    &nbsp;<img style="width:24px" alt="3" src="Images/star-images-9441.png" title="gorgeous">
+                    &nbsp;<img style="width:24px" alt="4" src="Images/star-images-9441.png" title="gorgeous">
+                    &nbsp;<img style="width:24px" alt="5" src="Images/star-images-9441.png" title="gorgeous">
+                    <input name="score" type="hidden" value="4.8" readonly="">
+                </span><br>
+
+                <p style="font-size: xx-large;">&#8377 1050 </p>
+              </div>
+
+            </div>
+            <div class="col-6">
+              <h3>|☀️ 2Days</h3>
+              <h3>|🌙 1Night</h3>
+              <h3>|📍 Manali</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <hr><br><br>
+
+    <!-- section 2........... -->
+    <section>
+      <div class="container-fluid ">
+        <div class="row content">
+          <!-- overview.......... -->
+          <div class="col-sm-9 text-left">
+            <h2 style="background-color: aliceblue;">OVERVIEW</h2><br>
+
+            <p>Triund is a charming hamlet perched at an altitude of about 2,828 m, in the Kangra Valley of Himachal
+              Pradesh. It is located at the foothills of the Dhauladhar range and is considered the heart of McLeodganj
+              and Dharamshala, from where the trek begins.
+              Triund Trek is considered one of the most popular and easiest treks in Himachal Pradesh. Every year a
+              lot of trekkers and tourists hike this adventurous trail<span id="dots">...</span><span id="more">
+                Triund is a small hill station with large land of green grass, deodar, oak, pine,
+                and Rhodeodaran forest. <br><br>
+
+                This trek has a lot to give to its takers - an enthralling view of the Dhauladhar
+                range as well as the Kangra valley, the pristine snow glittering in the sunlight,
+                the bright colors of the wild rhododendrons popping out here and there,
+                exploration of the forest amidst massive pine and oak trees, and most importantly,
+                the all-pervasive serenity that makes any trip to the mountains so special.
+                <br>
+
+                <br>The total distance of the Triund trek is 9 km (5.6miles) which can be covered
+                in 4-5 hours. Beginners can also undertake this <br>
+
+                <br> This adventure trek has two starting points one starts from Dharmakot and the
+                other from Mcleodganj. We will start this trek from Dharmakot.
+                Mcleodganj to Triund distance is 10 <br>
+
+                <br>Triund is accessible all around the year.
+                The best time to visit Triund is in the months of May-June and September-October.
+                The summer season is counted as the best time to visit and explore the beauty of
+                Triund. For a chilly and snowy experience, winters are a good time to visit.
+                In the monsoon season ( June & July) this place witnesses heavy rainfalls.
+                In monsoon season it is highly advisable not to do trekking in Triund.
+                Camping adds charm to Triund Trek. Experience waking up to the most beautiful
+                sunrises and ending the day with scenic sunsets. In the night,
+                the sky is all star-studded.<br>
+
+                <br>On this adventure, experience nature at its best and stay in camps overnight,
+                sharing tents and sleeping in sleeping bags!<br>
+
+                <br>📍 Nearby places to visit</br>
+
+                <br>Triund is a popular trekking destination in Himachal Pradesh and offers a
+                majestic view of the Himalayas. There are a lot of interesting places to
+                visit nearby such as Bhagsu falls, which is a popular tourist attraction and
+                famous for its captivating and refreshing waterfall, Namgyal Monastery
+                is known as the abode of Dalai Lama. The Tibetan spiritual leader, is a
+                great place with a tranquil atmosphere, the perfect place to learn about
+                Tibetan culture. Mcleodganj has several trekking destinations which make the
+                place a tourist hub; some of the treks are kareri river trek, the Guna Devi temple trek,
+                and the Indrahar pass trek.<br>
+
+
+                <br>The best way to reach McLeodganj or Dharamshala is to take an overnight bus from
+                Delhi. Dharamshala to Triund Distance is 8 km. You can also catch a train
+                from Delhi. The nearest Railway station is in Shimla- Kangra District and from
+                there you can take a direct bus to Dharamshala or Mcleodganj.
+                Flights are also available to Dharamshala ( The Gaggal Airport or Kangra Airport)
+                and from there you can take a private taxi to reach Mcleodganj.<br></span> </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button><br><br>
+
+            <!-- schedule.............. -->
+
+            <h2 style="background-color: aliceblue;">Schedule</h2><br>
+            <h3>Day 1: Start of 8Km Trek! - from Dharmakot to Triund </h3>
+            <p>➡️ 09:00 AM - Meet us at Dharamkot, which is less than 2 km from McLeodganj.
+              We will start our trek from here. Prepare yourself to watch the scenic views of nature.</p>
+
+            <p>➡️ For beginners, this trek will take around 4-5 hours. We will move at a comfortable pace,
+              exploring the trail, peeking through the dense forest, drinking in the brilliant vista.</p>
+
+            <p>➡️ We will reach Triund before the sunset as that is the one thing that you cannot miss on this trek.
+              Once you’ve witnessed the absolute beauty of the sunset,
+              you can never forget it for life. </p>
+
+            <p>➡️ In the star-studded night time, we will start our story-swapping session around the
+              campfire,and enjoy our scrumptious dinner.</p>
+
+            <p>➡️ Around 09:00 PM - You can retire to your tent for the night.
+            <p>
+
+            <h3>Day 2: Return of 8Km Trek! - from Triund to Dharamkot!</h3>
+
+            <p>➡️ Wake early to enjoy the sunrise. The other thing that you can’t miss on this memorable
+              trek along with the sunset, is the sunrise. The view of the sky rapidly
+              changing colors with the rising sun is more than just beautiful -
+              it takes your breath away. </p>
+
+            <p>➡️ After enjoying the sunrise, you can relax for a while,
+              have breakfast and prepare for the day’s upcoming trek.</p>
+
+            <p>➡️ This day, we’ll have to start really early since we’ll be
+              retracing our steps that we covered in the past day.
+              However, since the way is mostly a descent,
+              it is easier even for first-timers, and faster. </p>
+
+            <p>➡️ We’ll keep the pace comfortable and enjoy the enthralling trek back.</p>
+
+            <p>➡️ In the evening, we reach Dharamkot, where this journey ends.</p>
+
+            <!-- things to carry -->
+            <h2 style="background-color: aliceblue;">Things To Carry</h2>
+            <p>Warm, comfortable shoes and clothes - especially since Kheerganga can get pretty
+              cold even during the summers. Preferably trekking shoes and clothes.</p>
+
+            <p>📍 Backpack or haversack</p>
+
+            <p>📍 A change of clothes</p>
+
+            <p>📍 Medical kit</p>
+
+            <p>📍 ID Proof</p>
+
+            <p>📍 Sunscreen, cap</p>
+
+            <p>📍 Windcheater/ Raincoat</p>
+
+            <p>📍 Flashlight with extra batteries</p>
+
+            <p>📍 Water bottle</p>
+
+            <p>📍 Any necessary toiletries</p>
+
+            <p>📍 Carry reusable plastic bags with you</p>
+
+
+
+            <!-- reviews................... -->
+            <h2 style="background-color: aliceblue;">Reviews</h2>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>4.8 average based on 513 reviews.</p>
+            <hr style="border:3px solid #f1f1f1">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="side">
+                  <div style="text-align: center;">5 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+                <div class="side ">
+                  <div style="text-align: center;">490</div>
+                </div>
+                <div class="side">
+                  <div style="text-align: center;">4 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-4"></div>
+                  </div>
+                </div>
+                <div class="side ">
+                  <div style="text-align: center;">6</div>
+                </div>
+                <div class="side">
+                  <div style="text-align: center;">3 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-3"></div>
+                  </div>
+                </div>
+                <div class="side ">
+                  <div style="text-align: center;">8</div>
+                </div>
+                <div class="side">
+                  <div style="text-align: center;">3 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-2"></div>
+                  </div>
+                </div>
+                <div class="side ">
+                  <div style="text-align: center;">3</div>
+                </div>
+                <div class="side">
+                  <div style="text-align: center;">1 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-1"></div>
+                  </div>
+                </div>
+                <div class="side ">
+                  <div style="text-align: center;">6</div>
+                </div>
+              </div>
+            </div>
+            <!-- hr....... -->
+            <hr style="border:3px solid #f1f1f1">
+            <!-- user reviews.... -->
+
+            <div class="container py-3 bg-light"
+              style=" border: 2px solid #ccc; border-radius: 5px; padding: 16px; height:auto;">
+              <div class="row ">
+                <div class="col-lg-3 text-center">
+                  <figure><img alt="img" src="Images/vector/001-woman.png" style="width:90px; margin-top:10px;">
+                  </figure>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                      <h3>Natasha </h3>
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 text-left ">
+                  <div class="row ">
+                    <div class="col-4 text-left" style="padding: inherit;">
+                      <p style="color: grey; text-align:left ;">Published on 04-02-2022</p>
+                    </div>
+                    <div class="col-8"></div>
+                  </div>
+                  <div class="row  ">
+                    <p style="color:#080e1a ;text-align:left;">Traveling to Leh is a really difficult task, but thanks
+                      to
+                      adventure.com helpful and dedicated operation team, everything went so well for us.I generally
+                      organise
+                      my own vacations, but a buddy suggested that I visit Adventure.com .My entire experience was
+                      fantastic,
+                      and they delivered exactly what they promised in terms of attention to detail, efficiency,
+                      friendliness,
+                      and enjoyment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- review -->
+            <div class="container py-3 bg-light"
+              style=" border: 2px solid #ccc; border-radius: 5px; padding: 16px; height:auto;">
+              <div class="row ">
+                <div class="col-lg-3 text-center">
+                  <figure><img alt="img" src="Images/vector/009-man-5.png" style="width:90px; margin-top:10px;">
+                  </figure>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                      <h3>Harry</h3>
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 text-left ">
+                  <div class="row ">
+                    <div class="col-4 text-left" style="padding: inherit;">
+                      <p style="color: grey; text-align:left ;">Published on 24-04-2022</p>
+                    </div>
+                    <div class="col-8"></div>
+                  </div>
+                  <div class="row  ">
+                    <p style="color:#080e1a; text-align:left;">For all of your hard work, you deserve to be recognised.
+                      We are pleased to inform you that our trip has been fantastic.<br> We had attended and enjoyed
+                      every moment
+                      of the trip, and we came away with many golden memories.Your level of service, knowledge of the
+                      area,
+                      and courteous helpfulness have pleasantly surprised and thrilled me.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- review -->
+            <div class="container py-3 bg-light"
+              style=" border: 2px solid #ccc; border-radius: 5px; padding: 16px; height:auto;">
+              <div class="row ">
+                <div class="col-lg-3 text-center">
+                  <figure><img alt="img" src="Images/vector/man.png" style="width:90px; margin-top:10px;"></figure>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center ">
+                      <h3>Chris </h3>
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-lg-12 text-center">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 text-left ">
+                  <div class="row ">
+                    <div class="col-4 text-left" style="padding: inherit;">
+                      <p style="color: grey; text-align:left ;">Published on 12-06-2022</p>
+                    </div>
+                    <div class="col-8"></div>
+                  </div>
+                  <div class="row  ">
+                    <p style="color:#080e1a;  ;text-align:left;">My wife and I travelled to Leh-Ladakh with this
+                      firm in the first week of August.The service was professional but friendly, and great care was
+                      given
+                      to ensure that we completed all of the tasks on time and without causing any physical difficulty.
+                      Mausa, our driver, deserves special mention because she was with us for the entire .<br> He is a
+                      true asset who was always willing to help with helpful suggestions and patiently answered every
+                      query. His driving skills in the tough terrain were outstanding!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+
+
+            <!-- read more or read ki script ............... -->
+            <script>
+              function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                  dots.style.display = "inline";
+                  btnText.innerHTML = "Read more";
+                  moreText.style.display = "none";
+                } else {
+                  dots.style.display = "none";
+                  btnText.innerHTML = "Read less";
+                  moreText.style.display = "inline";
+                }
+              }
+            </script>
+
+            <!-- script ......... -->
+          </div>
+
+          <!-- side nave-bar ...........................-->
+
+          <div class="col-sm-3 sidenav">
+            <h2 style="background-color: aliceblue;">Top Rated</h2>
+            <div class="col-lg-12 ">
+              <h4 class=""><a href=""><img src="Images/hamta pas....jpg" style="width: 100%;"> Hamta Pass & Chandratal
+                  Lake Trek 2022(2D/1N)</a></h4>
+              <div class="row">
+                <!-- hamta passs -->
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 1750 </p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="hamtapass.html">Book Now</a></button>
+            </div><br>
+            <!-- Triund trek........ -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="Triund trek.html"><img src="Images/triund.....jpg" style="width: 100%;">
+                  Macleodganj Triund Trek 2022 (2D/1N)</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 1050 </p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="Triund trek.html">Book Now</a></button>
+            </div><br>
+            <!-- kedarnath trek....... -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="kedarnathtrek.html"><img src="Images/kedarnath calling2.jpg" style="width: 100%;">
+                  Kedarnath trek Trek 2022 (5D/4N)</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 5750 </p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="kedarnathtrek.html">Book Now</a></button>
+            </div><br>
+            <!--  kareri lake trek-->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="kareri.html"><img src="Images/kareri.jpg" style="width: 100%;">
+                  Kareri Lkae Dharamshala</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 1350 </p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="kareri.html">Book Now</a></button>
+            </div><br>
+            <!-- manali atul tunnel -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href=""><img src="Images/atal Tannul.jpg" style="width: 100%;">Manali Atal Tunnel</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 1550 </p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="book.html">Book Now</a></button>
+            </div><br>
+            <!-- kasol kheerganga.................  -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="Kasol.html"><img src="Images/kheerganga.jpg" style="width: 100%;">Kasol
+                  Kheerganga</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 2350</p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="Kasol.html">Book Now</a></button>
+            </div><br>
+            <!-- bike trip.................................... -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="biketrip.html"><img src="Images/bike.jpg" style="width: 100%;">Ladakh Bike Trip 2022
+                  (6D/7N)</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 18,130</p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="biketrip.html">Book Now</a></button>
+            </div><br>
+            <!-- paragliding................................................. -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href="paragliding.html"><img src="Images/freedom.jpg" style="width: 100%;"> Paragliding
+                  2022 in Manali</a></h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 3050</p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="paragliding.html">Book Now</a></button>
+            </div><br>
+            <!-- Rafting............................ -->
+            <div class="col-lg-12 ">
+              <h4 class=""><a href=""><img src="Images/rafting.jpg" style="width: 100%;">River Rafting 2022 Package</a>
+              </h4>
+              <div class="row">
+
+                <div class="col-7">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+                <div class="col-5">
+                  <p>&#8377 950</p>
+                </div>
+              </div>
+              <button><a class="btn btn-primary" href="paragliding.html">Book Now</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4th section.................. -->
+    <hr style="border:1px solid #d2d2d2 ">
+
+    <section>
+      <a herf=""><img style="width:100%; height: auto" src="Images/vector/5807322.jpg"></a>
+    </section>
+
+    <!-- footer .................................................................................-->
+
+
+    <footer>
+      <section>
+        <div class="container-fluid py-2" style="color: #080e1a;
+    background-color: currentcolor;">
+          <h2 style=" color: white;font-size: 40px;font-weight: 500;">ADVENTURE.com</h2>
+          <hr>
+          <div class="row">
+            <div class="col-lg-2">
+              <h4> Policies</h4>
+              <l>
+                <li style=" margin-left: -20px;"><a href="t&c.html" style="color:white; font-size: 16px;">T&C</a></li>
+                <li style=" margin-left: -20px;"><a href="privacy.html" style="color:white; font-size: 16px;">Privacy
+                  </a></li>
+                <li style=" margin-left: -20px;"><a href="copy.html" style="color:white; font-size: 16px;">Copyright
+                  </a></li>
+              </l>
+            </div>
+            <div class="col-lg-2">
+              <h4>Content</h4>
+              <l>
+                <li style=" margin-left: -20px;"><a href="galery .html" style="color:white; font-size: 16px;">Gallery
+                  </a></li>
+                <li style=" margin-left: -20px;"><a href="contact.html" style="color:white;
+             font-size: 16px; ">Contact us </a></li>
+              </l>
+            </div>
+            <div class="col-sm-5">
+            </div>
+            <div class="col-sm-3">
+              <h4>Our Social Media</h4>
+              <a href="https://twitter.com/aayush_rajan37" target="_blank" style="font-size: small;"><img
+                  style="width:30px" src="Images/backup/icons8-twitter-100.png">
+              </a>
+              <a href="https://www.facebook.com/aayush.rajan.3" target="_blank" style="font-size: small;"><img
+                  style="width:30px" src="Images/backup/icons8-facebook-circled-100.png">
+              </a>
+              <a href="https://www.instagram.com/___ash___37/" target="_blank" style="font-size: small;"><img
+                  style="width:30px" src="Images/backup/icons8-instagram-100.png">
+              </a><br><br>
+              <p style="color: white;">Get exclusive offers straight to your inbox
+                <a class="" data-toggle="modal" data-target="#signupmodal">SIGN UP</a></li>
+              </p>
+
+
+            </div>
+
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="bg-dark py-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7 text-left">
+              <p class="text-white" style="font-weight: 400;">© Copyright All Rights Reserved, advanture.com 2020.</p>
+            </div>
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-3">
+              <p style="font-size: 17px; color: rgb(187, 187, 187);">Devloped By:-
+                <a href="https://www.instagram.com/___ash___37/" target="_blank">
+                  Aayush Rajan</a>
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+    </footer>
+
+</body>
+
+</html>
