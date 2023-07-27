@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>About Section</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders  */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .navbar-inverse {
+      background-color: rgb(98 185 252);
+      border-color: rgb(98 185 252);
+
+    }
+
+    .navbar-inverse .navbar-brand {
+      color: #000000;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: #000000;
+    }
+
+    @media (min-width: 768p)
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 1150px
+    }
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 50px;
+      background-color: white;
+      height: 300%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: rgb(32, 31, 31);
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .row.content {
+        height: auto;
+      }
+    }
+
+    #more {
+      display: none;
+    }
+
+    p {
+      text-dark;
+      font-family: "Trirong", serif;
+    }
+
+    h1 {
+      font-family: "Trirong", serif;
+      background-color: rgb(85, 207, 255);
+    }
+
+    h2 {
+      background-color: rgb(143, 199, 241);
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header navbar navbar-expand-lg navbar-light bg-light">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">⛺dventure.com</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="">Home</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="galery.html">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Register.html"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center">
+    <div class="row content">
+      <div class="col-sm-9 text-left">
+        <h1>BIKE TRIP</h1>
+        <a href><img src="Images/bike.jpg" style="width:100%;"></a>
+        <!-- hr -->
+        <hr>
+        <!-- booking............................................. -->
+        <section class="bg-dark py-7">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <h3>Leh Ladakh Bike Trip 2022 (6N/7D) Leh, Jammu And Kashmir India
+                </h3><br>
+                <button><a class="btn btn-primary" href="book.html">Book Now</a></button>
+              </div>
+
+              <div class="col-lg-2 ">
+                <div class="row">
+
+                  <div class="col-7">
+                    <span class="rating">
+                      <div class="user-rating" data-score="4.9" title="gorgeous">
+                        <img style="width:24px" alt="1" src="Images/star-images-9441.png" title="gorgeous">
+                        &nbsp;<img style="width:24px" alt="2" src="Images/star-images-9441.png" title="gorgeous">
+                        &nbsp;<img style="width:24px" alt="3" src="Images/star-images-9441.png" title="gorgeous">
+                        &nbsp;<img style="width:24px" alt="4" src="Images/star-images-9441.png" title="gorgeous">
+                        &nbsp;<img style="width:24px" alt="5" src="Images/star-images-9441.png" title="gorgeous">
+                        <input name="score" type="hidden" value="4.8" readonly="">
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="col-5">
+                    <p style="font-size: xx-large;">&#8377 18,130 </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-5">
+                <h3>|☀️ 7Days|🌙 6Night</h3>
+                <h3>|📍Leh</h3>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <h2>OVERVIEW</h2><br><br>
+
+        <p> 📍 Variants:-</p>
+        <p> Own Bike & Own Fuel:- Rs 18,440/-</p>
+        <p> person sharing 1 bike:- Rs 22,115/-</p>
+        <p> 1 person on 1 bike:- Rs 26,630/-</p>
+        <p> Seat in Traveler:- Rs 23,690/-</p>
+        <p> 5% GST applicable</p>
+
+        <p>📍 Available Departures of 2022:-</p>
+        <p>June - 24,26,30</p>
+        <p>July - 2,4,8,10,12,14,16,18,20</p>
+        <p>Aug - 1,3,9,13,19,23,25,27</p>
+        <p>Sep - 4,8,10,14,17,24</p>
+        <p>Oct - 1,8,15</p>
+
+
+        <p>Ladakh- An union territory of India, is a land of natural wonders and full of surprises.
+          You can't compare the views there because as you see one picture, then another one will be
+          surprisingly more beautiful than the previous one. This region is the first
+          <span id="dots">...</span><span id="more"> adventure
+            and tourist destination of India, which is an equivalent favourite among foreigners and
+            Indians.<br><br>
+
+            Ladakh territory is 18,875 ft high from sea level, where Himalayan winds can touch you
+            easily. It will chill your body as well as your soul. In terms of altitude, it is 2900
+            Meters to 5900 Meters. The temperature range measured is +26 â to -20 â.
+            Generally, people confuse the Leh Ladakh that-" Is Leh and Ladakh Same" or "How
+            Leh Ladakh Different from each other." Leh is a district of Ladakh territory and
+            most significant in terms of area in the country. According to the data, it is the
+            most inhabited region of the world in terms of elevation. Ladakh region is safe for
+            tourism because people of the place are so innocent, and they like to welcome the
+            tourist. As Buddhism influences them, they respect the guests.<br>
+
+
+
+            <br>There you will find that all attractions of Ladakh provide you with a natural 360-degree
+            panoramic view. It is just like in one canvas god made a painting with all colors of
+            nature. When you see snow-clad mountains in one direction, then there will be the view
+            of the river with lush green vegetation and wildflowers at the banks of the river will
+            amaze you. Monasteries settled at the heights are just like made by God only. <br>
+
+            <br>Ladakh is the land of lamas, which means the majority of Ladakh populations is Buddhist
+            influenced by Tibetan Buddhism. There are two kinds of Buddhist philosophy followed
+            there Mahayana and Vajrayana. Beautiful Monasteries and Gompas are gifts to this
+            area where anyone can seek blessings of Lord Buddha and experience the practices
+            of Buddhism. If some knowledge-seeker wants to know more about Buddhism, then there is a
+            world-known premier institute working as the "Central Institute of Buddhist Study"
+            established in 1959 by the support of the Indian Government.<br><br>
+
+            Tourist attractions of Ladakh spellbound the visitors. All locations must-visit locations,
+            but if you miss the Khardung La pass and Pangong Tso Lake, you will lose the main essence
+            of Ladakh. The main tourist attractions are Shanti Stupa, Alchi Monastery, Spituk Gompa
+            , Diskit Gompa, Pathar Sahib, Magnetic Hill, Thiksey Monastery, Khardungla Pass, Pangong
+            Tso Lake, Nubra Valley, Indus and Zanskar River Confluence, White Desert Safari at Hunder.
+            Every single destination has its, speciality which mesmerizes the visitor by its beauty
+            and ambieance.<br><br>
+
+
+            The Leh Ladakh Bike Trip is a one of-a-kind experience that will please your soul!
+            Experience the thrill of riding a bike on the world's highest motorable road - the Khardung
+            La Pass! At 17,582 ft, the Khardung La Pass is the highest motorable road accessible by
+            civilians anywhere in the world! The Chang La pass is another such exciting aspect of
+            this magical journey through the Himalayan kingdom of Ladakh! Located amidst the majestic
+            Karakoram range and the mighty Himalayan range, Ladakh presents to the world this tremendous
+            touring opportunity that will truly make your holidays special.<br>
+
+            <br>📍 Best Time to Visit Leh Ladakh:<br><br>
+
+            April to June and September to October is the best time to enjoy the exotic Leh
+            Ladakh Tour.Weather conditions changed according to the months. At the start of April,
+            snow started melting, so the market, guest houses, hotels get ready to welcome the
+            tourists. It is the starting time of the tourist season. Monuments are also open to
+            visitors.<br><br>
+
+            After June, at the start of Monsoon, this area has heavy rainfall as a result of it,
+            there would be road blockages, and the condition of roads becomes worst for travelling,
+            however, initially, Manali highway road remains in running condition along Rohtang pass.
+            So the monsoon season is not the right time to do travelling because it is hazardous.<br><br>
+
+            As the Monsoon ends, tourist activities start again with a clear sky and picturesque
+            views. The second tourist season remains until October end after this extreme cold
+            covers the whole area. When snowfall starts, life remains at halt due to heavy snow and
+            minus degree temperature where locals can only survive. It continues until the end of
+            the march. Then again, the tourist season starts at the beginning of April month.</span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+        <!-- read more or read ki script ............... -->
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
+        </script>
+        <!-- new para............. -->
+
+        <h2>Schedule</h2>
+        <h3> Arrival in Leh-Rest & Acclimitization </h3>
+        <p>➡️On arrival at Leh, Meet our company representative.</p>
+
+        <p>➡️ After getting briefed about the schedule and upcoming events
+          of the trip, you will be transferred to a hotel/guest house.</p>
+
+        <p>➡️ Dinner</p>
+        <p>➡️ Overnight stay at the hotel, Leh. </p>
+
+        <h3>Leh Local Sightseeing</h3>
+        <p>➡️ Get ready for Leh Local sightseeing. </p>
+        <p>➡️ Today, you will be visiting Magnetic hill, Pathar Sahab Gurudwara, Hall of Fame, Monastery,
+          Shanti Stupa, Leh Palace, Sangam Confluence. </p>
+
+        <p>➡️ visit Leh market.</p>
+
+        <p>➡️ Dinner</p>
+        <p>➡️ Overnight Stay at Hotel in Leh.</p>
+
+        <h2>Things To Carry</h2>
+        <p> 📍 Woolen Clothes</p>
+
+        <p>📍 Riding Boots, Jackets, Gloves with Knee and Elbow Guards</p>
+
+        <p>📍Backpack or haversack</p>
+
+        <p>📍 Medical kit & General Medicine kit(If required)</p>
+
+        <p>📍 ID Proof</p>
+
+        <p>📍 Sunscreen, lip balm, cap, and sunglasses</p>
+
+        <p>📍 Windcheater/ Raincoat</p>
+
+        <p>📍 Flashlight with extra batteries</p>
+
+        <p>📍 Water bottle</p>
+
+        <p>📍 Any necessary toiletries</p>
+
+        <p>📍 Flashlight with extra batteries</p>
+
+        <h2>Reviews</h2>
+      </div><br>
+
+
+      <div class="col-sm-3 sidenav">
+        <div class="well">
+          <p>Ads</p>
+        </div>
+        <div class="well">
+          <p>Ads</p>
+        </div>
+        <div class="well">
+          <p>Ads</p>
+        </div>
+        <div class="well">
+          <p>Ads</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="container-fluid text-center">
+    <section id="footer" class="bg-dark  ">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col text-dark">
+            <h3 class="text-warning text-center">Find Us ON!</h3>
+            <ul class="list list-inline list-social-networks">
+              <li class="list-item"><a href="https://twitter.com/aayush_rajan37" target="_blank"><img style="width:40px"
+                    src="Images/backup/icons8-twitter-100.png">
+                  Twitter</a></li>
+              <li class="list-item"><a href="https://www.facebook.com/aayush.rajan.3" target="_blank"><img
+                    style="width:40px" src="Images/backup/icons8-facebook-circled-100.png">
+                  Facebook</a></a></li>
+              <li class="list-item"><a href="https://www.instagram.com/___ash___37/" target="_blank"><img
+                    style="width:40px" src="Images/backup/icons8-instagram-100.png">
+                  Instagram</a> </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p style="text-black; text-align-last: left;">© Copyright All Rights Reserved, advanture.com 2020.</p>
+    </section>
+  </footer>
+
+</body>
+
+</html>
