@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Prompt:wght@100&display=swap');
+:root{
+	--primary-color: #061188;
+	--secondary-color: #8e8e8e;
+	--font: 'Poppins', sans-serif;
+}
+body{background-color: aliceblue;
+
+}
+img{
+	width: 280px;
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.btn{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: var(--primary-color);
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: .3s;
+	cursor: pointer;
+}
+
+
+body{
+	background: rgb(255, 255, 255);
+	font-family: var(--font);
+}
+
+nav{
+	position: fixed;
+	width: 100vw;
+	height: 60px;
+	border-top: .5rem solid var(--primary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999999;
+}
+
+.navbar-brand{
+	display: inline-block;
+    padding-top: 0rem;
+    margin-right: 0.1rem;
+    font-size: 23px;
+    line-height: inherit;
+    font-weight: 600;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+ul{
+
+	align-items: center;
+	height: 60px;
+}
+
+ul a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	margin: 0 1rem;
+	text-transform: uppercase;
+	font-family:Arial, sans-serif; ;
+	font-weight: 600;
+	font-size: 14px;
+}
+ul li{
+	list-style: none;
+
+}
+
+
+ h4 a{
+	display: inline-block;
+	color: #2e5470;
+	text-decoration: none;
+	font-size: 20px ;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+
+}
+
+h4{
+	color:rgb(255, 204, 0)
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+/* contact  */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+
+.img{
+	width: auto;
+	height:auto
+}
+
+/* Set black background color, white text and some padding */
+.footer {
+	position: fixed;
+	margin-top: 0%;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: #293543;
+	color: black;
+	height: 50px;
+	
+ }
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+	font-family: Arial, sans-serif; 
+  color: black;
+  display:block;
+  font-size: 35px;
+  font-weight: 600;
+ 
+}
+
+p{
+	color:rgb(18, 18, 18);
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: Arial, sans-serif;
+}
+/* read more */
+#more {display: none;}
+
+/* rating.. */
+.checked {
+	color: orange;
+  }
+  
+
+  .heading {
+	font-size: 25px;
+	margin-right: 25px;
+  }
+  
+ 
+  .checked {
+	color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+	float: left;
+	width: 15%;
+	margin-top:10px;
+  }
+  
+  .middle {
+	margin-top:10px;
+	float: left;
+	width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+	text-align: right;
+	padding: 0px 60px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .bar-container {
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	color: white;
+  }
+  /* Individual bars */
+.bar-5 {width: 92%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 2%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 3%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 1%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 2%; height: 18px; background-color: #f44336;}
+
+.fa-star:before{
+	font-size: 20px;
+}
+/* user reviews .....testimonial */
+.container {
+    margin: 16px;
+    height: 130px;
+    padding: 0;
+    width: auto;
+}
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders  */
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+	background-color:rgb(98 185 252);
+	position: fixed;
+    width: 100vw;
+    height: 60px;
+    border-top: 0.5rem solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+
+ }
+ 
+ button{
+    border-radius:3px;
+	border-style: hidden;
+     }
+/* contact box .......................................................................*/
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color:#8ad9ff!important;
+	background: transparent;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("Images/man-.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+	}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 0%;
+	padding: 0.5rem 1rem;
+	background-color: rgb(4, 130, 255);
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn::after{
+    background-color: #020b53;
+}
+.modal-header {
+    padding: 2rem 12rem;
+    padding-bottom: 1px;
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+ 
+/* signup box............................................................... */
+
+    
+	/* booking box........................................................................ */
+	.book-box{
+		max-width: 850px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: rgb(199, 206, 220);
+		background: transparent;
+		box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	}
+	
+	.left{
+		background: url("Images/man-\ in\ mout..jpg") no-repeat center;
+		background-size: cover;
+		height: 100%;
+	}
+	
+	.right{
+		padding: 25px 40px;
+	}
+	
+	h2{
+		position: relative;
+		padding: 0 0 10px;
+		margin-bottom: 10px;
+	}
+	
+	h2:after{
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		height: 4px;
+		width: 50px;
+		
+		
+	}
+	
+	.field{
+		width: 100%;
+		border: 2px solid rgba(0, 0, 0, 0);
+		outline: none;
+		background-color: rgba(230, 230, 230, 0.6);
+		padding: 0.5rem 1rem;
+		font-size: 1.1rem;
+		margin-bottom: 22px;
+		transition: .3s;
+	}
+	
+	.field:hover{
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	
+	textarea{
+		min-height: 150px;
+	}
+	
+	.btn{
+		width: 100%;
+		padding: 0.5rem 1rem;
+		background-color: rgb(4, 130, 255);
+		color: #fff;
+		font-size: 1.1rem;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		transition: .3s;
+	}
+	
+	.btn:hover{
+		background-color: #0023d1;
+	}
+	
+	.field:focus{
+		border: 2px solid rgba(30,85,250,0.47);
+		background-color: #fff;
+	}
+	
+	@media screen and (max-width: 880px){
+		.book-box{
+			grid-template-columns: 1fr;
+		}
+		.left{
+			height: 200px;
+		}
+	}	
