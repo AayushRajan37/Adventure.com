@@ -41,7 +41,6 @@ nav{
 	position: fixed;
 	width: 100vw;
 	height: 60px;
-	border-top: .5rem solid var(--primary-color);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
